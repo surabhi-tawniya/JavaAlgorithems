@@ -12,7 +12,7 @@ public class CountVowel {
     public int vowel(String input)  {
 
         if(input == null || input == " "){
-            throw new IllegalArgumentException("Please provide valid input");
+            throw new IllegalArgumentException("Please provide valid value or input");
         }
 
         int count = 0;
