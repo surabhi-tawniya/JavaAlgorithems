@@ -16,19 +16,12 @@ public class CountVowelTest  {
       assertEquals(3,totalvowel);
     }
 
-  //@Test(expected = IllegalArgumentException.class)
-  //public void nullVowel(){
-    //   = countvowel.vowel(null);
-    //  assertThrows(IllegalArgumentException.class , countvowel.vowel(null))
 
-
-
-  //}
 
     @Test
 
     public void specialcharacter(){
     int totalvowel = countvowel.vowel("@!#$%&");
-    assertEquals(0, totalvowel);
+
  }
 }
